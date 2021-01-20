@@ -1,0 +1,53 @@
+@font-face{
+    font-family: 'Axis';
+    src: url('Axis\ Extrabold.otf');
+}
+
+
+/* Remove the navbar's default rounded borders and increase the bottom margin */ 
+.navbar {
+    margin-bottom: 0px;
+    border-radius: 0;
+  }
+  
+  /* Remove the jumbotron's default bottom margin */ 
+   .jumbotron {
+    margin-bottom: 5%;
+  }
+ 
+  /* Add a gray background color and some padding to the footer */
+  footer {
+    background-color: #f2f2f2;
+    padding: 25px;
+  }
+
+
+
+  img.img-responsive{
+      width:100%;
+  }
+
+ body, footer{
+    background-color: #1c446b;
+}
+
+img#footerImg{
+    width: 10%; 
+    margin-left: auto; 
+    margin-right: auto;
+}
+
+img#product{
+    margin-right: auto;
+    margin-left: auto;
+}
+
+div#standard.panel-body{
+background-color: #101a38;
+}
+div#premium.panel-body{
+background-color: #0e3659;
+}
+div#ultimate.panel-body{
+background-color: #003a75;
+}
